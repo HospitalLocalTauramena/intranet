@@ -72,3 +72,7 @@ function openValor(evt, valorName) {
     document.getElementById(valorName).style.display = "block";
     evt.currentTarget.className += " active";
   }
+
+
+
+  

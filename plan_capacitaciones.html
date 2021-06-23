@@ -6,383 +6,397 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Intranet - Hospital Local de Tauramena </title>
+    <link rel="shortcut icon" href="resource/img/favicon.png">
     <link rel="stylesheet" href="resource/css/acordion.css">
     <script src="resource/components/header.js"></script>
     <link rel="stylesheet" href="resource/css/main.css">
     <script src="resource/js/main.js"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
-      crossorigin="anonymous">
+        crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
-      crossorigin="anonymous"></script>
-     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400&display=swap" rel="stylesheet">
+        crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
-  </head>
-  
-  <body>
+</head>
+
+<body>
     <header-component></header-component>
     <main>
-    <!--========Menu plegable==============-->
-    <div class="row">
-        <div class="col">
-            <h2><b>Inducción y Re-Inducción </b></h2>
-            <h2>
-                <hr>
-            </h2>
-            <div class="tabs">
-                <div class="tab2">
-                    <input type="radio" id="rd1" name="rd">
-                    <label for="rd1" class="tab-close">MINIMIZAR</label>
-                </div>
-
-                <!--========Contenido capacitacion Direccionamiento estrategico ==============-->
-                <div class="tab2">
-                    <input type="radio" id="rd7" name="rd">
-                    <label class="tab-label" for="rd7">Direccionamiento Estratégico</label>
-                    <div class="tab-content">
-
-                        <div class="tab3">
-                            <button class="tablinks" onclick="openValor(event, 'VID-DIR')">Video </button>
-                            <button class="tablinks" onclick="openValor(event, 'PRES-DIR')">Presentación
-                            </button>
-                            <button class="tablinks" onclick="openValor(event, 'PRES-PLAN')">Presentación Plan
-                                2020-2024 </button>
-                            <button class="tablinks" onclick="openValor(event, 'PLAN-GES')">Plan Gestion
-                                2020-2024 </button>
-                            <button class="tablinks" onclick="openValor(event, 'PLAN-DES')">Plan Desarrollo
-                                2020-2024 </button>
-                            <button class="tablinks" onclick="openValor(event, 'EV-DIR')">Evaluación </button>
-
-                        </div>
-
-                        <div id="VID-DIR" class="tabcontent">
-                            <iframe src="https://drive.google.com/file/d/1jDXcyCs0fgkcB743F-lNtlGdoreM3nHn/preview"
-                                width="640" height="480"></iframe>
-                        </div>
-                        <div id="PRES-DIR" class="tabcontent">
-                            <iframe src="https://drive.google.com/file/d/19xvGoBa4fq_HXg-7cVPXHrqr7MNtWiiP/preview"
-                                width="640" height="480"></iframe>
-                        </div>
-                        <div id="PRES-PLAN" class="tabcontent">
-                            <iframe src="https://drive.google.com/file/d/1iM4RFrDI1SqpRhbsaMf8NuWw7PBRxOwu/preview"
-                                width="640" height="480"></iframe>
-                        </div>
-                        <div id="PLAN-GES" class="tabcontent">
-                            <iframe src="https://drive.google.com/file/d/1CmBo58w6rH8c4kNNwzrsD-3mdz-_utBq/preview"
-                                width="640" height="480"></iframe>
-                        </div>
-                        <div id="PLAN-DES" class="tabcontent">
-                            <iframe src="https://drive.google.com/file/d/1iJoqrlBPtnN0SLGTaDO-1bHm4QW4PZlB/preview"
-                                width="640" height="480"></iframe>
-                        </div>
-                        <div id="EV-DIR" class="tabcontent">
-                            <iframe
-                                src="https://docs.google.com/forms/d/e/1FAIpQLSeVgjcQ6WCcxfB68NjR7Lh5Lf4Y1uBZdnrD62DcQJs1z04ZxQ/viewform?embedded=true"
-                                width="700" height="520" frameborder="0" marginheight="0"
-                                marginwidth="0">Cargando…</iframe>
-                        </div>
-                    </div>
-                    <!--========final Contenido capacitacion ==============-->
-
-
-                    <!--========Contenido capacitacion control interno ==============-->
+        <!--========Menu plegable==============-->
+        <div class="row">
+            <div class="col">
+                <h2><b>Inducción y Re-Inducción </b></h2>
+                <h2>
+                    <hr>
+                </h2>
+                <div class="tabs">
                     <div class="tab2">
-                        <input type="radio" id="rd3" name="rd">
-                        <label class="tab-label" for="rd3">Sistema de Control Interno</label>
+                        <input type="radio" id="rd1" name="rd">
+                        <label for="rd1" class="tab-close">MINIMIZAR</label>
+                    </div>
+
+                    <!--========Contenido capacitacion Direccionamiento estrategico ==============-->
+                    <div class="tab2">
+                        <input type="radio" id="rd7" name="rd">
+                        <label class="tab-label" for="rd7">Direccionamiento Estratégico</label>
                         <div class="tab-content">
 
                             <div class="tab3">
-                                <button class="tablinks" onclick="openValor(event, 'CONTROL')">Video </button>
-                                <button class="tablinks" onclick="openValor(event, 'PRESENTACION-CONTROL')">Presentación
+                                <button class="tablinks" onclick="openValor(event, 'VID-DIR')">Video </button>
+                                <button class="tablinks" onclick="openValor(event, 'PRES-DIR')">Presentación
                                 </button>
-                                <button class="tablinks"
-                                    onclick="openValor(event, 'INFOGRAFIA-CONTROL')">Infografía</button>
-                                <button class="tablinks" onclick="openValor(event, 'DECRETO-648')">Decreto 648 de
-                                    2017</button>
-                                <button class="tablinks" onclick="openValor(event, 'EV-CONTROL')">Evaluación</button>
-
-                            </div>
-                            <div id="CONTROL" class="tabcontent">
-                                <iframe src="https://drive.google.com/file/d/16Dz7kMegvszNZGdyyjNrkD-BzxibKJtv/preview"
-                                    width="640" height="480"></iframe>
+                                <button class="tablinks" onclick="openValor(event, 'PRES-PLAN')">Presentación Plan
+                                    2020-2024 </button>
+                                <button class="tablinks" onclick="openValor(event, 'PLAN-GES')">Plan Gestion
+                                    2020-2024 </button>
+                                <button class="tablinks" onclick="openValor(event, 'PLAN-DES')">Plan Desarrollo
+                                    2020-2024 </button>
+                                <button class="tablinks" onclick="openValor(event, 'EV-DIR')">Evaluación </button>
 
                             </div>
 
-                            <div id="PRESENTACION-CONTROL" class="tabcontent">
-                                <iframe src="https://drive.google.com/file/d/1a5bBH-E6jSfr8y7S6nnexc2O9VaYTN3l/preview"
+                            <div id="VID-DIR" class="tabcontent">
+                                <iframe src="https://drive.google.com/file/d/1jDXcyCs0fgkcB743F-lNtlGdoreM3nHn/preview"
                                     width="640" height="480"></iframe>
                             </div>
-
-                            <div id="INFOGRAFIA-CONTROL" class="tabcontent">
-                                <iframe src="https://drive.google.com/file/d/1u5-lsNElRY9N5Y7JIZfWdxJBOBkAXuLV/preview"
+                            <div id="PRES-DIR" class="tabcontent">
+                                <iframe src="https://drive.google.com/file/d/19xvGoBa4fq_HXg-7cVPXHrqr7MNtWiiP/preview"
                                     width="640" height="480"></iframe>
                             </div>
-
-                            <div id="DECRETO-648" class="tabcontent">
-                                <iframe src="https://drive.google.com/file/d/1XAtZXMwSDNF9_wVqQK7BftQOKP3TDYRy/preview"
+                            <div id="PRES-PLAN" class="tabcontent">
+                                <iframe src="https://drive.google.com/file/d/1iM4RFrDI1SqpRhbsaMf8NuWw7PBRxOwu/preview"
                                     width="640" height="480"></iframe>
-                                <p2> </p2>
                             </div>
-
-                            <div id="EV-CONTROL" class="tabcontent">
+                            <div id="PLAN-GES" class="tabcontent">
+                                <iframe src="https://drive.google.com/file/d/1CmBo58w6rH8c4kNNwzrsD-3mdz-_utBq/preview"
+                                    width="640" height="480"></iframe>
+                            </div>
+                            <div id="PLAN-DES" class="tabcontent">
+                                <iframe src="https://drive.google.com/file/d/1iJoqrlBPtnN0SLGTaDO-1bHm4QW4PZlB/preview"
+                                    width="640" height="480"></iframe>
+                            </div>
+                            <div id="EV-DIR" class="tabcontent">
                                 <iframe
-                                    src="https://docs.google.com/forms/d/e/1FAIpQLSfjCNO0pHgfOt8-5j5gkO07u71JupmqY4Mew9BF9FJA1ojM_w/viewform?embedded=true"
-                                    width="640" height="1774" frameborder="0" marginheight="0"
-                                    marginwidth="0">Cargando…</iframe>
-                            </div>
-                        </div>
-                    </div>
-                    <!--========final Contenido capacitacion ==============-->
-
-                    <!--========Contenido capacitacion ==============-->
-                    <div class="tab2">
-                        <input type="radio" id="rd5" name="rd">
-                        <label class="tab-label" for="rd5">Planes Institucionales</label>
-                        <div class="tab-content">
-
-                            <div class="tab3">
-                                <button class="tablinks" onclick="openValor(event, 'PLANES')">Video</button>
-                                <button class="tablinks" onclick="openValor(event, 'PRES-PLANES')">Presentación</button>
-                                <button class="tablinks" onclick="openValor(event, 'EV-PLANES')">Evaluación </button>
-                            </div>
-
-                            <div id="PLANES" class="tabcontent">
-                                <iframe src="https://drive.google.com/file/d/1U1qrR5ouq37bSl4Oo5cIb6IjuxcrVRrb/preview"
-                                    width="640" height="480"></iframe>
-                            </div>
-                            <div id="PRES-PLANES" class="tabcontent">
-                                <iframe src="https://drive.google.com/file/d/1CtazQKX2xCrlTHlnLBumMYcdIqhsjDbo/preview"
-                                    width="640" height="480"></iframe>
-                            </div>
-                            <div id="EV-PLANES" class="tabcontent">
-                                <iframe
-                                    src="https://docs.google.com/forms/d/e/1FAIpQLSfOwLpXX8_Tp41GOj4jABaqKEQTmBIe-mNzgIW865ACH7A-jA/viewform?embedded=true"
-                                    width="640" height="1448" frameborder="0" marginheight="0"
+                                    src="https://docs.google.com/forms/d/e/1FAIpQLSeVgjcQ6WCcxfB68NjR7Lh5Lf4Y1uBZdnrD62DcQJs1z04ZxQ/viewform?embedded=true"
+                                    width="700" height="520" frameborder="0" marginheight="0"
                                     marginwidth="0">Cargando…</iframe>
                             </div>
                         </div>
                         <!--========final Contenido capacitacion ==============-->
 
-                        <!--========Contenido capacitacion SG-SST==============-->
+
+                        <!--========Contenido capacitacion control interno ==============-->
                         <div class="tab2">
-                            <input type="radio" id="rd4" name="rd">
-                            <label class="tab-label" for="rd4">Seguridad y Salud en el Trabajo (SG-SST)</label>
+                            <input type="radio" id="rd3" name="rd">
+                            <label class="tab-label" for="rd3">Sistema de Control Interno</label>
                             <div class="tab-content">
 
                                 <div class="tab3">
-                                    <button class="tablinks" onclick="openValor(event, 'SG-SST')">Video</button>
+                                    <button class="tablinks" onclick="openValor(event, 'CONTROL')">Video </button>
                                     <button class="tablinks"
-                                        onclick="openValor(event, 'PRESENTACION-SG-SST')">Presentación</button>
-                                    <button class="tablinks" onclick="openValor(event, 'EV-SG-SST')">Evaluación</button>
+                                        onclick="openValor(event, 'PRESENTACION-CONTROL')">Presentación
+                                    </button>
+                                    <button class="tablinks"
+                                        onclick="openValor(event, 'INFOGRAFIA-CONTROL')">Infografía</button>
+                                    <button class="tablinks" onclick="openValor(event, 'DECRETO-648')">Decreto 648 de
+                                        2017</button>
+                                    <button class="tablinks"
+                                        onclick="openValor(event, 'EV-CONTROL')">Evaluación</button>
 
                                 </div>
-                                <div id="SG-SST" class="tabcontent">
+                                <div id="CONTROL" class="tabcontent">
                                     <iframe
-                                        src="https://drive.google.com/file/d/1gUmJ7uTwrrcjUrB7wvMt0jXfiVED5tTQ/preview"
+                                        src="https://drive.google.com/file/d/16Dz7kMegvszNZGdyyjNrkD-BzxibKJtv/preview"
                                         width="640" height="480"></iframe>
 
                                 </div>
 
-                                <div id="PRESENTACION-SG-SST" class="tabcontent">
+                                <div id="PRESENTACION-CONTROL" class="tabcontent">
                                     <iframe
-                                        src="https://drive.google.com/file/d/1AwyJ2Pe-IwCnVy9sXCMhSxHUTtZY0kQU/preview"
+                                        src="https://drive.google.com/file/d/1a5bBH-E6jSfr8y7S6nnexc2O9VaYTN3l/preview"
                                         width="640" height="480"></iframe>
                                 </div>
 
-                                <div id="EV-SG-SST" class="tabcontent">
+                                <div id="INFOGRAFIA-CONTROL" class="tabcontent">
                                     <iframe
-                                        src="https://docs.google.com/forms/d/e/1FAIpQLSeDuVbiWeI81ilPg_A3sXmn8w66brDhOBNsNKSWOUrywFBgCw/viewform?embedded=true"
-                                        width="640" height="1897" frameborder="0" marginheight="0"
+                                        src="https://drive.google.com/file/d/1u5-lsNElRY9N5Y7JIZfWdxJBOBkAXuLV/preview"
+                                        width="640" height="480"></iframe>
+                                </div>
+
+                                <div id="DECRETO-648" class="tabcontent">
+                                    <iframe
+                                        src="https://drive.google.com/file/d/1XAtZXMwSDNF9_wVqQK7BftQOKP3TDYRy/preview"
+                                        width="640" height="480"></iframe>
+                                    <p2> </p2>
+                                </div>
+
+                                <div id="EV-CONTROL" class="tabcontent">
+                                    <iframe
+                                        src="https://docs.google.com/forms/d/e/1FAIpQLSfjCNO0pHgfOt8-5j5gkO07u71JupmqY4Mew9BF9FJA1ojM_w/viewform?embedded=true"
+                                        width="640" height="1774" frameborder="0" marginheight="0"
                                         marginwidth="0">Cargando…</iframe>
                                 </div>
                             </div>
                         </div>
                         <!--========final Contenido capacitacion ==============-->
 
-                        <!--========Contenido capacitacion IAMII PAMEC ==============-->
+                        <!--========Contenido capacitacion ==============-->
                         <div class="tab2">
-                            <input type="radio" id="rd6" name="rd">
-                            <label class="tab-label" for="rd6">IAMII - Seguridad del Paciente - PAMEC</label>
+                            <input type="radio" id="rd5" name="rd">
+                            <label class="tab-label" for="rd5">Planes Institucionales</label>
                             <div class="tab-content">
 
                                 <div class="tab3">
-                                    <button class="tablinks" onclick="openValor(event, 'VID-IAMII')">Video IAMII
+                                    <button class="tablinks" onclick="openValor(event, 'PLANES')">Video</button>
+                                    <button class="tablinks"
+                                        onclick="openValor(event, 'PRES-PLANES')">Presentación</button>
+                                    <button class="tablinks" onclick="openValor(event, 'EV-PLANES')">Evaluación
                                     </button>
-                                    <button class="tablinks" onclick="openValor(event, 'PRES-IAMII')">Presentación IAMII
-                                    </button>
-                                    <button class="tablinks" onclick="openValor(event, 'POL-IAMII')">Politica IAMII
-                                    </button>
-                                    <button class="tablinks" onclick="openValor(event, 'VID-SEG')">Video SP </button>
-                                    <button class="tablinks" onclick="openValor(event, 'PRES-SEG')">Presentación SP
-                                    </button>
-                                    <button class="tablinks" onclick="openValor(event, 'POL-SEG')">Politica SP </button>
-                                    <button class="tablinks" onclick="openValor(event, 'PRES-PAMEC')">Presentación PAMEC
-                                    </button>
-                                    <button class="tablinks" onclick="openValor(event, 'EV-IAMII')">Evaluación </button>
                                 </div>
 
-                                <div id="VID-IAMII" class="tabcontent">
+                                <div id="PLANES" class="tabcontent">
                                     <iframe
-                                        src="https://drive.google.com/file/d/16RCx1NAWxk446hlJvew5nBeX6eNJadOQ/preview"
+                                        src="https://drive.google.com/file/d/1U1qrR5ouq37bSl4Oo5cIb6IjuxcrVRrb/preview"
                                         width="640" height="480"></iframe>
                                 </div>
-                                <div id="PRES-IAMII" class="tabcontent">
+                                <div id="PRES-PLANES" class="tabcontent">
                                     <iframe
-                                        src="https://drive.google.com/file/d/18fS4Z4D4_91HH_mWPhfPfi90NHbFxyvB/preview"
+                                        src="https://drive.google.com/file/d/1CtazQKX2xCrlTHlnLBumMYcdIqhsjDbo/preview"
                                         width="640" height="480"></iframe>
                                 </div>
-                                <div id="POL-IAMII" class="tabcontent">
+                                <div id="EV-PLANES" class="tabcontent">
                                     <iframe
-                                        src="https://drive.google.com/file/d/1EWI15lOZTSSlu5doK_CiKvNRp_0jQAhC/preview"
-                                        width="640" height="480"></iframe>
-                                </div>
-                                <div id="VID-SEG" class="tabcontent">
-                                    <iframe
-                                        src="https://drive.google.com/file/d/1CEk_zR77bwQ913UG4HMhUjS7MECEzQr4/preview"
-                                        width="640" height="480"></iframe>
-                                </div>
-                                <div id="PRES-SEG" class="tabcontent">
-                                    <iframe
-                                        src="https://drive.google.com/file/d/11RV2EhDuTS4JwlE-2ajpl1pz7Axl_vJI/preview"
-                                        width="640" height="480"></iframe>
-                                </div>
-                                <div id="POL-SEG" class="tabcontent">
-                                    <iframe
-                                        src="https://drive.google.com/file/d/16SkI4sj_k3kBFSNqRlsqgIOxnPW2o3rP/preview"
-                                        width="640" height="480"></iframe>
-                                </div>
-                                <div id="PRES-PAMEC" class="tabcontent">
-                                    <iframe
-                                        src="https://drive.google.com/file/d/16j4Es8QvUZCvpHuHp5UP-dtlXiV4AjV9/preview"
-                                        width="640" height="480"></iframe>
-                                </div>
-                                <div id="EV-IAMII" class="tabcontent">
-                                    <iframe
-                                        src="https://docs.google.com/forms/d/e/1FAIpQLScyveHNbJwGHJNKdIBfgqzNfqlP-pDJ0o5R5tkt1YgiBhlRyw/viewform?embedded=true"
-                                        width="700" height="520" frameborder="0" marginheight="0"
+                                        src="https://docs.google.com/forms/d/e/1FAIpQLSfOwLpXX8_Tp41GOj4jABaqKEQTmBIe-mNzgIW865ACH7A-jA/viewform?embedded=true"
+                                        width="640" height="1448" frameborder="0" marginheight="0"
                                         marginwidth="0">Cargando…</iframe>
                                 </div>
-
                             </div>
                             <!--========final Contenido capacitacion ==============-->
-                            <!--======== Contenido capacitacion SIG ==============-->
+
+                            <!--========Contenido capacitacion SG-SST==============-->
                             <div class="tab2">
-                                <input type="radio" id="rd2" name="rd">
-                                <label class="tab-label" for="rd2">Sistema Integrado de Gestión (SIG) </label>
+                                <input type="radio" id="rd4" name="rd">
+                                <label class="tab-label" for="rd4">Seguridad y Salud en el Trabajo (SG-SST)</label>
                                 <div class="tab-content">
 
+                                    <div class="tab3">
+                                        <button class="tablinks" onclick="openValor(event, 'SG-SST')">Video</button>
+                                        <button class="tablinks"
+                                            onclick="openValor(event, 'PRESENTACION-SG-SST')">Presentación</button>
+                                        <button class="tablinks"
+                                            onclick="openValor(event, 'EV-SG-SST')">Evaluación</button>
+
+                                    </div>
+                                    <div id="SG-SST" class="tabcontent">
+                                        <iframe
+                                            src="https://drive.google.com/file/d/1gUmJ7uTwrrcjUrB7wvMt0jXfiVED5tTQ/preview"
+                                            width="640" height="480"></iframe>
+
+                                    </div>
+
+                                    <div id="PRESENTACION-SG-SST" class="tabcontent">
+                                        <iframe
+                                            src="https://drive.google.com/file/d/1AwyJ2Pe-IwCnVy9sXCMhSxHUTtZY0kQU/preview"
+                                            width="640" height="480"></iframe>
+                                    </div>
+
+                                    <div id="EV-SG-SST" class="tabcontent">
+                                        <iframe
+                                            src="https://docs.google.com/forms/d/e/1FAIpQLSeDuVbiWeI81ilPg_A3sXmn8w66brDhOBNsNKSWOUrywFBgCw/viewform?embedded=true"
+                                            width="640" height="1897" frameborder="0" marginheight="0"
+                                            marginwidth="0">Cargando…</iframe>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--========final Contenido capacitacion ==============-->
+
+                            <!--========Contenido capacitacion IAMII PAMEC ==============-->
+                            <div class="tab2">
+                                <input type="radio" id="rd6" name="rd">
+                                <label class="tab-label" for="rd6">IAMII </label>
+                                <div class="tab-content">
 
                                     <div class="tab3">
-                                        <button class="tablinks" onclick="openValor(event, 'SIG')">Video ¿Qué es
-                                            el SIG? </button>
-                                        <button class="tablinks" onclick="openValor(event, 'MAPA')">Video Mapa de
-                                            Procesos</button>
-                                        <button class="tablinks" onclick="openValor(event, 'DOC')">Documento2</button>
-                                        <button class="tablinks"
-                                            onclick="openValor(event, 'EV-SIG')">Evaluación</button>
-
-                                    </div>
-                                    <div id="SIG" class="tabcontent">
-                                        <iframe
-                                            src="https://drive.google.com/file/d/15-v2Wkl0egE5AEa5NF5u1NS3b0cGFEnW/preview"
-                                            width="640" height="480"></iframe>
-
+                                        <button class="tablinks" onclick="openValor(event, 'VID-IAMII')">Video 
+                                        </button>
+                                        <button class="tablinks" onclick="openValor(event, 'PRES-IAMII')">Presentación
+                                          
+                                        </button>
+                                        <button class="tablinks" onclick="openValor(event, 'POL-IAMII')">Politica 
+                                        </button>
+                                        <button class="tablinks" onclick="openValor(event, 'EV-IAMII')">Evaluación
+                                        </button>
                                     </div>
 
-                                    <div id="MAPA" class="tabcontent">
+                                    <div id="VID-IAMII" class="tabcontent">
                                         <iframe
-                                            src="https://drive.google.com/file/d/1Hm5MNWcAlqpgnBQvsIZblS8JeDaEhQJp/preview"
+                                            src="https://drive.google.com/file/d/16RCx1NAWxk446hlJvew5nBeX6eNJadOQ/preview"
                                             width="640" height="480"></iframe>
                                     </div>
-
-                                    <div id="DOC" class="tabcontent">
-                                        <p2> </p2>
-                                    </div>
-
-                                    <div id="EV-SIG" class="tabcontent">
+                                    <div id="PRES-IAMII" class="tabcontent">
                                         <iframe
-                                            src="https://docs.google.com/forms/d/e/1FAIpQLSfem9oe-t3Bgkmv2ScpLfeG4n3ikc8AsRCRclKly0tSxL5uhA/viewform?embedded=true"
-                                            width="640" height="1812" frameborder="0" marginheight="0"
+                                            src="https://drive.google.com/file/d/18fS4Z4D4_91HH_mWPhfPfi90NHbFxyvB/preview"
+                                            width="640" height="480"></iframe>
+                                    </div>
+                                    <div id="POL-IAMII" class="tabcontent">
+                                        <iframe
+                                            src="https://drive.google.com/file/d/1EWI15lOZTSSlu5doK_CiKvNRp_0jQAhC/preview"
+                                            width="640" height="480"></iframe>
+                                    </div>
+                                    <div id="EV-IAMII" class="tabcontent">
+                                        <iframe
+                                            src="https://docs.google.com/forms/d/e/1FAIpQLSe_vwrm7t9aT1MfOaUzeLwbh9KE4fl_28qbIPamF3vIkHQ-hw/viewform?embedded=true"
+                                            width="640" height="2649" frameborder="0" marginheight="0"
                                             marginwidth="0">Cargando…</iframe>
                                     </div>
 
-
                                 </div>
-                            </div>
-                            <!--========Fin Contenido tab ==============-->
+                                <!--========final Contenido capacitacion ==============-->
+                                <!--======== Contenido capacitacion SIG ==============-->
+                                <div class="tab2">
+                                    <input type="radio" id="rd2" name="rd">
+                                    <label class="tab-label" for="rd2">Sistema Integrado de Gestión (SIG) </label>
+                                    <div class="tab-content">
 
-                            <!--========Contenido capacitacion sistemas ==============-->
-                            <div class="tab2">
-                                <input type="radio" id="rd8" name="rd">
-                                <label class="tab-label" for="rd8">PROSOFT - Inducción</label>
-                                <div class="tab-content">
 
-                                    <div class="tab3">
-                                        <button class="tablinks" onclick="openValor(event, 'VIDPROSOFT')">Video Inducción Prosoft </button>
-                                        <button class="tablinks" onclick="openValor(event, 'PRESPROSOFT')">Presentación Generalidades Prosoft </button>
-                                        <button class="tablinks" onclick="openValor(event, 'EVPROSOFT')">Evaluación </button>
+                                        <div class="tab3">
+                                            <button class="tablinks" onclick="openValor(event, 'SIG')">Video ¿Qué es
+                                                el SIG? </button>
+                                            <button class="tablinks" onclick="openValor(event, 'MAPA')">Video Mapa de
+                                                Procesos</button>
+                                            <button class="tablinks"
+                                                onclick="openValor(event, 'DOC')">Documento2</button>
+                                            <button class="tablinks"
+                                                onclick="openValor(event, 'EV-SIG')">Evaluación</button>
+
+                                        </div>
+                                        <div id="SIG" class="tabcontent">
+                                            <iframe
+                                                src="https://drive.google.com/file/d/15-v2Wkl0egE5AEa5NF5u1NS3b0cGFEnW/preview"
+                                                width="640" height="480"></iframe>
+
+                                        </div>
+
+                                        <div id="MAPA" class="tabcontent">
+                                            <iframe
+                                                src="https://drive.google.com/file/d/1Hm5MNWcAlqpgnBQvsIZblS8JeDaEhQJp/preview"
+                                                width="640" height="480"></iframe>
+                                        </div>
+
+                                        <div id="DOC" class="tabcontent">
+                                            <p2> </p2>
+                                        </div>
+
+                                        <div id="EV-SIG" class="tabcontent">
+                                            <iframe
+                                                src="https://docs.google.com/forms/d/e/1FAIpQLSfem9oe-t3Bgkmv2ScpLfeG4n3ikc8AsRCRclKly0tSxL5uhA/viewform?embedded=true"
+                                                width="640" height="1812" frameborder="0" marginheight="0"
+                                                marginwidth="0">Cargando…</iframe>
+                                        </div>
+
 
                                     </div>
-                                    <div id="VIDPROSOFT" class="tabcontent">
-                                        <iframe src="https://drive.google.com/file/d/1FJ65rxo4UiyHcnaVdIuGAOhomuYKGdAs/preview" width="640" height="480"></iframe>
-                                    </div>
-
-                                  <div id="PRESPROSOFT" class="tabcontent">
-                                    <iframe src="https://drive.google.com/file/d/1ZWBTATe08wSewlryBry0x2HH_s1rlwy2/preview" width="640" height="480"></iframe>
                                 </div>
+                                <!--========Fin Contenido tab ==============-->
 
-                              <div id="EVPROSOFT" class="tabcontent">
-                                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfSOOPGKJLAGpg5CI7p4f9ymmmVg9tjUfg0U1tAz50EmeFXLQ/viewform?embedded=true" width="640" height="2267" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
-                            </div>
+                                <!--========Contenido capacitacion sistemas ==============-->
+                                <div class="tab2">
+                                    <input type="radio" id="rd8" name="rd">
+                                    <label class="tab-label" for="rd8">PROSOFT - Acceso</label>
+                                    <div class="tab-content">
 
-                                </div>
-                            </div>
-                            <!--========final Contenido capacitacion sistemas ==============-->
-                            <!--========Contenido capacitacion facturación ==============-->
-                            <div class="tab2">
-                                <input type="radio" id="rd9" name="rd">
-                                <label class="tab-label" for="rd9">Facturación</label>
-                                <div class="tab-content">
+                                        <div class="tab3">
+                                            <button class="tablinks" onclick="openValor(event, 'VIDPROSOFT')">Video
+                                                Inducción Prosoft </button>
+                                            <button class="tablinks"
+                                                onclick="openValor(event, 'PRESPROSOFT')">Presentación Generalidades
+                                                Prosoft </button>
+                                            <button class="tablinks" onclick="openValor(event, 'EVPROSOFT')">Evaluación
+                                            </button>
 
-                                    <div class="tab3">
-                                        <button class="tablinks" onclick="openValor(event, 'VIDFAC')">Video Facturación </button>
-                                        <button class="tablinks" onclick="openValor(event, 'PRESFAC')">Presentación Facturación </button>
-                                        <button class="tablinks" onclick="openValor(event, 'RES3047')">Resolución 3047 de 2008 </button>
-                                        <button class="tablinks" onclick="openValor(event, 'EVFAC')">Evaluación </button>
+                                        </div>
+                                        <div id="VIDPROSOFT" class="tabcontent">
+                                            <iframe
+                                                src="https://drive.google.com/file/d/1FJ65rxo4UiyHcnaVdIuGAOhomuYKGdAs/preview"
+                                                width="640" height="480"></iframe>
+                                        </div>
+
+                                        <div id="PRESPROSOFT" class="tabcontent">
+                                            <iframe
+                                                src="https://drive.google.com/file/d/1ZWBTATe08wSewlryBry0x2HH_s1rlwy2/preview"
+                                                width="640" height="480"></iframe>
+                                        </div>
+
+                                        <div id="EVPROSOFT" class="tabcontent">
+                                            <iframe
+                                                src="https://docs.google.com/forms/d/e/1FAIpQLSfSOOPGKJLAGpg5CI7p4f9ymmmVg9tjUfg0U1tAz50EmeFXLQ/viewform?embedded=true"
+                                                width="640" height="2267" frameborder="0" marginheight="0"
+                                                marginwidth="0">Cargando…</iframe>
+                                        </div>
 
                                     </div>
-                                    <div id="VIDFAC" class="tabcontent">
-                                        <iframe src="https://drive.google.com/file/d/1hX0G9jZ9Ue0TOkPdyRJbMSuCTTUQNlcK/preview" width="640" height="480"></iframe>
-                                    </div>
-                                                    <div id="PRESFAC" class="tabcontent">
-                                                        <iframe src="https://drive.google.com/file/d/1JWNtxNR5_FuWpwufPnJeaoV-WI8nEN9Y/preview" width="640" height="480"></iframe>
                                 </div>
-                                                      <div id="RES3047" class="tabcontent">
-                                                        <iframe src="https://drive.google.com/file/d/1uwtMohPgIScrQe0nAOmkdR4caexwY4hS/preview" width="640" height="480"></iframe>
+                                <!--========final Contenido capacitacion sistemas ==============-->
+                                <!--========Contenido capacitacion facturación ==============-->
+                                <div class="tab2">
+                                    <input type="radio" id="rd9" name="rd">
+                                    <label class="tab-label" for="rd9">Facturación</label>
+                                    <div class="tab-content">
+
+                                        <div class="tab3">
+                                            <button class="tablinks" onclick="openValor(event, 'VIDFAC')">Video
+                                                Facturación </button>
+                                            <button class="tablinks" onclick="openValor(event, 'PRESFAC')">Presentación
+                                                Facturación </button>
+                                            <button class="tablinks" onclick="openValor(event, 'RES3047')">Resolución
+                                                3047 de 2008 </button>
+                                            <button class="tablinks" onclick="openValor(event, 'EVFAC')">Evaluación
+                                            </button>
+
+                                        </div>
+                                        <div id="VIDFAC" class="tabcontent">
+                                            <iframe
+                                                src="https://drive.google.com/file/d/1hX0G9jZ9Ue0TOkPdyRJbMSuCTTUQNlcK/preview"
+                                                width="640" height="480"></iframe>
+                                        </div>
+                                        <div id="PRESFAC" class="tabcontent">
+                                            <iframe
+                                                src="https://drive.google.com/file/d/1JWNtxNR5_FuWpwufPnJeaoV-WI8nEN9Y/preview"
+                                                width="640" height="480"></iframe>
+                                        </div>
+                                        <div id="RES3047" class="tabcontent">
+                                            <iframe
+                                                src="https://drive.google.com/file/d/1uwtMohPgIScrQe0nAOmkdR4caexwY4hS/preview"
+                                                width="640" height="480"></iframe>
+                                        </div>
+                                        <div id="EVFAC" class="tabcontent">
+                                            <iframe
+                                                src="https://docs.google.com/forms/d/e/1FAIpQLSdrFsIAhnk05UZKlqfM_CQTddyJNq7gtUr9Mp2u_N59tagbfQ/viewform?embedded=true"
+                                                width="640" height="2315" frameborder="0" marginheight="0"
+                                                marginwidth="0">Cargando…</iframe>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--========final Contenido capacitacion facturación==============-->
+                                <!--========Contenido capacitacion ==============-->
+                                <div class="tab2">
+                                    <input type="radio" id="rd10" name="rd">
+                                    <label class="tab-label" for="rd10">Nueva..</label>
+                                    <div class="tab-content">
+
+                                        <div class="tab3">
+                                            <button class="tablinks" onclick="openValor(event, 'Video1')">Nueva..
+                                            </button>
+
+                                        </div>
+                                        <div id="Video1" class="tabcontent">
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--========final Contenido capacitacion ==============-->
                             </div>
-                                              <div id="EVFAC" class="tabcontent">
-                                                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdrFsIAhnk05UZKlqfM_CQTddyJNq7gtUr9Mp2u_N59tagbfQ/viewform?embedded=true" width="640" height="2315" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
                         </div>
-                                </div>
-                            </div>
-                            <!--========final Contenido capacitacion facturación==============-->
-                            <!--========Contenido capacitacion ==============-->
-                            <div class="tab2">
-                                <input type="radio" id="rd10" name="rd">
-                                <label class="tab-label" for="rd10">Nueva..</label>
-                                <div class="tab-content">
-
-                                    <div class="tab3">
-                                        <button class="tablinks" onclick="openValor(event, 'Video1')">Nueva.. </button>
-
-                                    </div>
-                                    <div id="Video1" class="tabcontent">
-                                    </div>
-                                </div>
-                            </div>
-                            <!--========final Contenido capacitacion ==============-->
-                        </div>
-                    </div>
-                </main>
+    </main>
 </body>
 
 </html>

@@ -8,6 +8,7 @@
 }
  .row .col {
 	 flex: 1;
+	 background-color:white;
 }
  .row .col:last-child {
 	 margin-left: 1em;
@@ -26,17 +27,22 @@
 }
 
  .tab-label {
+	font-size: 0.95em;
+	padding: 0.5em;
+	box-shadow: 0 4px 4px -2px rgba(0, 0, 0, 0.5);
+	border-radius: 30px;
+	border-style:groove;
      color: white;
 	 display: flex;
 	 justify-content: space-between;
 	 padding: 1em;
-	 background: #212529;
+	 background: #4f5d6e;
 	 font-weight: bold;
 	 cursor: pointer;
-	/* Icon */
+
 }
  .tab-label:hover {
-	 background: #355379;
+	 background: #283747;
 }
  .tab-label::after {
 	 content: "\276F";
@@ -44,6 +50,7 @@
 	 height: 1em;
 	 text-align: center;
 	 transition: all 0.35s;
+	 
 }
  .tab-content {
 	 max-height: 0;
@@ -58,15 +65,18 @@
 	 justify-content: flex-end;
 	 padding: 0.5em;
 	 font-size: 0.75em;
-	 background: #212529;
+	 background: #4f5d6e;
 	 cursor: pointer;
-     color: white;
+     color: whitesmoke;
+	 border-radius: 30px;
+	 border-style:groove;
 }
  .tab-close:hover {
-	 background: #355379;
+	 background: #283747;
 }
  input:checked + .tab-label {
-	 background: #355379;
+	 background: #283747;
+
 }
  input:checked + .tab-label::after {
 	 transform: rotate(90deg);

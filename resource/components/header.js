@@ -128,7 +128,7 @@ headerTemplate.innerHTML = `
                                     target="_blank">Solicitud de Cambios en el S.I.G. </a>
                         </ul>
                     </li>
-                    <li class="parent"><a class="nav-link" href="covid_19.html">Covid-19</a></li>
+                    <li class="parent"><a class="nav-link" href="covid_19.html">Documentos Covid-19</a></li>
                     <li class="parent"><a class="nav-link" href="plan_capacitaciones.html">Programa de Capacitaciones</a></li>
                     <li class="parent"><a class="nav-link" href="trd.html">TRD</a></li>
                     <li class="parent"><a class="nav-link" href="index.html">Nosotros </a></li>

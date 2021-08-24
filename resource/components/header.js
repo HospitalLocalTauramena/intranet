@@ -129,7 +129,17 @@ headerTemplate.innerHTML = `
                         </ul>
                     </li>
                     <li class="parent"><a class="nav-link" href="covid_19.html">Documentos Covid-19</a></li>
-                    <li class="parent"><a class="nav-link" href="plan_capacitaciones.html">Programa de Capacitaciones</a></li>
+                    
+                            
+                    <li class="parent">
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Programa de Capacitaciones</a>
+                        <ul class="dropdown-menu">
+                             <li><a class="dropdown-item" href="induccion_y_reinduccion.html">Inducción y Re-Inducción</a></li>
+                                    <li><a class="dropdown-item" href="plan_capacitaciones.html">Plan de Capacitaciones</a></li>
+                            
+                        </ul>
+                    </li>
+                    
                     <li class="parent"><a class="nav-link" href="trd.html">TRD</a></li>
                     <li class="parent"><a class="nav-link" href="index.html">Nosotros </a></li>
 

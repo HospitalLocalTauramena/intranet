@@ -57,9 +57,8 @@ headerTemplate.innerHTML = `
             </button>
             <div class="collapse navbar-collapse" id="main_nav">
                 <ul class="navbar-nav">
-                    <li class="parent"> <a class="nav-link"
-                            href="http://www.esehospital-tauramena-casanare.gov.co/">Home</a> </li>
-                    <li class="parent"><a class="nav-link" href="noticias.html">Noticias</a></li>
+
+		<li class="parent"><a class="nav-link" href="index.html">Nosotros </a></li>
                     <li class="parent">
                         <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Sistema Integrado de
                             Gestion (S.I.G.)</a>
@@ -81,10 +80,6 @@ headerTemplate.innerHTML = `
                                     <li><a class="dropdown-item" href="gestion_de_hospitalizacion.html">Gestión de
                                             hospitalización </a></li>
                                     <li><a class="dropdown-item" href="gestión_de_urgencias.html">Gestión de urgencias
-                                        </a></li>
-                                    <li><a class="dropdown-item" href="comunicación_interna.html">Comunicación Interna
-                                        </a></li>
-                                    <li><a class="dropdown-item" href="documentos_externos.html">Documentos externos
                                         </a></li>
                                     <li><a class="dropdown-item"
                                             href="gestion_consulta_externa_intramural_y_extramural.html">Gestión
@@ -120,9 +115,6 @@ headerTemplate.innerHTML = `
                                             Seguimiento y Control </a></li>
                                 </ul>
                             </li>
-
-                            <li><a class="dropdown-item" href="mis_registros_transversales.html">Mis Registros
-                                    Transversales </a></li>
                             <li><a class="dropdown-item"
                                     href="https://docs.google.com/forms/d/e/1FAIpQLSfqqNnJlQ1_xnIUG1axZ312dpG2flL8cgg32QZw30S8ke9G_w/viewform?vc=0&c=0&w=1&flr=0"
                                     target="_blank">Solicitud de Cambios en el S.I.G. </a>
@@ -141,7 +133,7 @@ headerTemplate.innerHTML = `
                     </li>
                     
                     <li class="parent"><a class="nav-link" href="trd.html">TRD</a></li>
-                    <li class="parent"><a class="nav-link" href="index.html">Nosotros </a></li>
+                    
 
                 </ul>
 
@@ -156,8 +148,8 @@ headerTemplate.innerHTML = `
 
 <aside class="derecha">
 <iframe
-    src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FHospitalTauramena%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=125533584131229"
-    width="340" height="550" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
+    src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FHospitalTauramena%2F&tabs=timeline&width=300&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=125533584131229"
+    width="300" height="550" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
     allowfullscreen="true"
     allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
 </aside>

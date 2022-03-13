@@ -36,6 +36,9 @@ headerTemplate.innerHTML = `
        header{
          background: #212529;
        }
+    .navbar{
+      font-size: 18px;
+    }
 	</style>
   
 <header>
@@ -49,7 +52,6 @@ headerTemplate.innerHTML = `
   </nav>
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <div class="container-fluid">
-  
       <ul class="navbar-nav me-auto mb-2 mb-lg-0 m-auto">      
           <li class="parent">
               <a class="nav-link active" aria-current="page" href="index.html">Nosotros</a>
@@ -161,14 +163,16 @@ headerTemplate.innerHTML = `
 `;
 
 class Header extends HTMLElement {
-    constructor() {
-        super();
-    }
+  constructor() {
+    super();
+  }
 
-    connectedCallback() {
-        const shadowRoot = this.attachShadow({ mode: 'closed' });
-        shadowRoot.appendChild(headerTemplate.content);
-    }
+  connectedCallback() {
+    const shadowRoot = this.attachShadow({
+      mode: 'closed'
+    });
+    shadowRoot.appendChild(headerTemplate.content);
+  }
 }
 
 customElements.define('header-component', Header);

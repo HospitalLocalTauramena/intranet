@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+
+  <title>Capacitaciones </title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+    crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+    crossorigin="anonymous"></script>
+
+  <style>
+    #accord {
+      position: static !important;
+      text-align: center;
+    }
+
+    iframe {
+      width: 100%;
+      height: 500px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+  </style>
+</head>
+
+<body>
+
+  <div class='container mb-5'>
+    <div class="accordion" id="accord">
+
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="head1">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1"
+            aria-expanded="false" aria-controls="collapse1">
+            Video
+          </button>
+        </h2>
+        <div id="collapse1" class="accordion-collapse collapse" aria-labelledby="head1" data-bs-parent="#accord">
+          <iframe class="embed-responsive-item"
+            src="https://drive.google.com/file/d/1AWEFh446d8raUvKlIFgDc5-NS5kfcIzg/preview" allowfullscreen></iframe>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="heading2">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2"
+            aria-expanded="false" aria-controls="collapse2">
+            Evaluación
+          </button>
+        </h2>
+        <div id="collapse2" class="accordion-collapse collapse" aria-labelledby="head2" data-bs-parent="#accord">
+          <iframe class="embed-responsive-item"
+            src="https://docs.google.com/forms/d/e/1FAIpQLScGiosor2qO_Yhk7U4R59KjKBaAcQB1x1HqqOicV6I_NqN23w/viewform?embedded=true"
+            frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
+        </div>
+      </div>
+
+    </div>
+
+</body>
+
+</html>
